@@ -2,7 +2,7 @@
 #include "test.h"
  
 //Test case
-TEST(testdemo,addfunction){
+TEST(test,addfunction){
     //arrange - preconditions, prepare input data
     int operand1 = 10;
     int operand2 = 20;
@@ -13,7 +13,7 @@ TEST(testdemo,addfunction){
     //Assert - validate measurment points
     ASSERT_EQ(actualresult,expectedresult);
 }
- TEST(testdemo,subfunctio){
+ TEST(test,subfunctio){
     //arrange - preconditions, prepare input data
     int operand1 = 20;
     int operand2 = 10;
