@@ -1,6 +1,3 @@
-//Testing_file
-#include <gtest/gtest.h>
-
 //test demo
  
 #include "testdemo.h"
