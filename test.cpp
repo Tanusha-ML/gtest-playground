@@ -1,4 +1,12 @@
 //Testing_file
 #include <gtest/gtest.h>
-//public interfaces
-int add(int x, int y);
+
+//test demo
+ 
+#include "testdemo.h"
+ 
+int add(int x, int y){
+    int result = 0;
+    result = (x+y);
+}
+ 
