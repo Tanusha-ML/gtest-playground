@@ -19,7 +19,7 @@ int mul(int x, int y){
     result = (x*y);
     return result;
 }
-int div(int x, int y){
+int divi(int x, int y){
     int result = 0;
     result = (x/y);
     return result;

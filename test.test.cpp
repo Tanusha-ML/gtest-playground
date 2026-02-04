@@ -44,7 +44,7 @@ TEST(test,addfunction){
     int actualresult = 0;
     int expectedresult = 10;
     //act - invoke code under test
-    actualresult = div(operand1,operand2);
+    actualresult = divi(operand1,operand2);
     //Assert - validate measurment points
     ASSERT_EQ(actualresult,expectedresult);
 }
